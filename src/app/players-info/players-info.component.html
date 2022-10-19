@@ -1,0 +1,30 @@
+<div class="container">
+<table class="table " style="background-color: lightgreen;">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">player number</th>
+        <th scope="col">player name</th>
+        <th scope="col">position</th>
+        <th scope="col">goals</th>
+        <th scope="col">assists</th>
+        <th scope="col">games played</th>
+        <th scope="col">rating</th>
+     
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr *ngFor="let player of playersList" >
+        <th scope="row">1</th>
+        <td>{{player.number}}</td>
+        <td>{{player.name}}</td>
+        <td>{{player.position}}</td>
+        <td>{{player.goals}}</td>
+        <td>{{player.assists}}</td>
+        <td>{{player.games}}</td>
+        <td>{{player.rating}}</td>
+      </tr>
+     
+    </tbody>
+  </table>
+</div>

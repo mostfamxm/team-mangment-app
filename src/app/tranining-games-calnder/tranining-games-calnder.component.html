@@ -1,0 +1,81 @@
+<div class="container" style="padding-top: 150px ; ;">
+    <table class="table " style="background-color: lightgreen;">
+        <thead>
+          <tr *ngFor="let game of games "  *ngFor="let training of trainings">
+            <th scope="col"></th>
+            <th scope="col">days</th>
+            <th scope="col">training date</th>
+            <th scope="col">training location</th>
+            <th scope="col">game date</th>
+            <th scope="col">game location</th>
+            
+         
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <th scope="row">1</th>
+            <td>sunday</td>
+            <td>{{training.date}}</td>
+            <td>{{training.location}}</td>
+            <td>{{games.date}}</td>
+            <td>{{games.location}}</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>monday</td>
+            <td>{{training.date}}</td>
+            <td>{{training.location}}</td>
+            <td>{{games.date}}</td>
+            <td>{{games.location}}</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td >tuseday</td>
+            <td>{{training.date}}</td>
+            <td>{{training.location}}</td>
+            <td>{{games.date}}</td>
+            <td>{{games.location}}</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td >wednesday</td>
+            <td>{{training.date}}</td>
+            <td>{{training.location}}</td>
+            <td>{{games.date}}</td>
+            <td>{{games.location}}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">5</th>
+            <td >thursday</td>
+            <td>{{training.date}}</td>
+            <td>{{training.location}}</td>
+            <td>{{games.date}}</td>
+            <td>{{games.location}}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">6</th>
+            <td >friday</td>
+            <td>{{training.date}}</td>
+            <td>{{training.location}}</td>
+            <td>{{games.date}}</td>
+            <td>{{games.location}}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">7</th>
+            <td >saturday</td>
+            <td>{{training.date}}</td>
+            <td>{{training.location}}</td>
+            <td>{{games.date}}</td>
+            <td>{{games.location}}</td>
+          </tr>
+
+
+
+        </tbody>
+      </table>
+    </div>
